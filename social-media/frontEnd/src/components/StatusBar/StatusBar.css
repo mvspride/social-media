@@ -1,0 +1,27 @@
+.StatusBar_container{
+    display: flex;
+    height : 119px;
+    width : 470px;
+    /* margin-top: 30px; */
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(223, 222, 222);
+    overflow-x: scroll ;
+
+}
+.status{
+    height: 85px;
+    padding: 12px;
+    margin-top: 9px;
+    /* background-color: aqua; */
+}
+.StatusBar_container::-webkit-scrollbar{
+    display: none;
+}
+.avatar-profile{
+    border: 3px solid red;
+}
+.avatar-names{
+    font-size: 12px;
+    max-width: 54px;
+    overflow-x: hidden;
+}

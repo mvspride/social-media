@@ -1,0 +1,126 @@
+.navbarContainer{
+    height: 60px;
+    background-color: rgb(255, 254, 254);
+    border-bottom: 1px solid rgb(212, 212, 212);
+    display: flex;
+    box-sizing: border-box;
+}
+.navbar{
+    margin: 15px;
+    flex-grow: 1;
+    align-content: center;
+    
+}
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: cursive;
+    flex-shrink: 1;
+    justify-content: center;
+    flex:6
+}
+.logo_text{
+    margin-left:40px;
+}
+.search{    
+    max-width: 260px;
+    border: 1px solid#dbdbdb;
+    text-align: center;
+    background-color: #efefef;
+    color:#8e8e8e;
+    align-self:center;
+    border-radius: 5px;
+    height: 36px;
+    outline: none;
+    flex:6
+
+
+    
+}
+.icons{
+    flex-shrink: 0;
+    flex:6
+
+}
+.iconsContainer{
+    width:254px;
+    height:36px;
+    display: flex;
+    /* background-color: #8e8e8e; */
+    box-sizing:content-box;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon{
+    flex-shrink: 0;
+}
+.upload{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.fileUpload > input {
+    display: none;
+}
+
+
+.sign_out_button{
+    flex:1;
+    flex-shrink: 0;
+}
+/* .NavBar__barContent{
+    padding-top: 7px;
+} */
+
+
+/* .nav_search{
+    width:70%;
+    border: 4px salmon;
+    margin-left: -50px;
+}
+
+
+.navbar_icons{
+    padding-top: 7px;
+    display: flex;
+
+}
+
+/* @media only screen and (max-width: 610px) {
+.navbar_pride{
+    display: none;
+
+}
+}  */
+/* .navbar_logo{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+@media only screen and (max-width: 620px) {
+.navbar_logo{
+    display :none;
+}
+}
+
+.sign_out_button{
+    border-radius: 10px;
+    border: 1px solid rgba(18, 193, 224, 0.733);
+    display: flex;
+    margin-left: -25px; 
+
+    }
+@media only screen and (max-width: 650px) {
+    .sign_out_button{
+        display: none;
+    }
+    } 
+@media only screen and (max-width: 745px) {
+    .sign_out_button{
+        display: none;
+    }
+    } 
+.sign_out_text{
+    text-align: left !important;
+}  */
